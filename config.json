@@ -1,0 +1,19 @@
+{
+    "params":
+    {
+        "local_server": "True",
+        "local_uri": "mysql://root:@localhost/blogsite",
+        "prod_uri": "mysql://root:@localhost/blogsite",
+        "fb_url": "https://facebook.com/blogsite",
+        "tw_url": "#",
+        "gh_url": "#",
+        "blog_name": "Blog Site",
+        "tag_line": "A Blog liked by Programmers",
+        "gmail-username": "hashamflask1999@gmail.com",
+        "gmail-password": "hashamflask561999@",
+        "no_of_posts": 2,
+        "admin_username": "admin",
+        "admin_password": "admin",
+        "upload_location": "E:\\Python\\Flask Framework\\Blog Website\\static\\assets\\img"
+    }
+}

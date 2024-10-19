@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block body %} 
+
+<!-- Page Header-->
+        <header class="masthead" style="background-image: url(' {{ url_for('static', filename='assets/img/about-bg.jpg') }}')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>About Me</h1>
+                            <span class="subheading">This is what I do.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>Welcome to my blog! I'm thrilled that you're here.</p>
+                        <p>I'm [Your Name], a passionate [your profession or interests] who loves to share thoughts, insights, and experiences through writing. Whether it's [mention your blog's main topics—travel, lifestyle, tech, personal growth, etc.], my goal is to create a space where ideas can flow and inspire others.</p>
+                        <p>This blog is my creative outlet—a place where I document the things I care about most, hoping to connect with readers who share similar passions. Each post is a piece of me, whether it's advice, stories, or reflections on life, and I hope you find them helpful, relatable, or at the very least, enjoyable.</p>
+                        <p>When I’m not writing, I’m usually [briefly mention your hobbies or what you like to do in your free time]. I believe that life is a constant journey of learning and growing, and I’m here to share my journey with you.</p>
+                        <p>Thank you for stopping by! Feel free to explore my blog.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+
+{% endblock %}
